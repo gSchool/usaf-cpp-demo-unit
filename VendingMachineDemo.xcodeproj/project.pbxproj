@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BBB5A37E24AB9777004D0B1A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB5A37D24AB9777004D0B1A /* main.cpp */; };
+		BB17AD9E24AB981B0099FB65 /* VendingMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB17AD9C24AB981B0099FB65 /* VendingMachine.cpp */; };
+		BB17ADA024AB98C80099FB65 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = BB17AD9F24AB98C80099FB65 /* makefile */; };
+		BBB5A37E24AB9777004D0B1A /* VendingMachineTestMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB5A37D24AB9777004D0B1A /* VendingMachineTestMain.cpp */; };
+		BBB5A38624AB978D004D0B1A /* Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB5A38424AB978D004D0B1A /* Item.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BB17AD9C24AB981B0099FB65 /* VendingMachine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VendingMachine.cpp; sourceTree = "<group>"; };
+		BB17AD9D24AB981B0099FB65 /* VendingMachine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VendingMachine.hpp; sourceTree = "<group>"; };
+		BB17AD9F24AB98C80099FB65 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
 		BBB5A37A24AB9777004D0B1A /* VendingMachineDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VendingMachineDemo; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBB5A37D24AB9777004D0B1A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BBB5A37D24AB9777004D0B1A /* VendingMachineTestMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VendingMachineTestMain.cpp; sourceTree = "<group>"; };
+		BBB5A38424AB978D004D0B1A /* Item.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Item.cpp; sourceTree = "<group>"; };
+		BBB5A38524AB978D004D0B1A /* Item.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Item.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,12 @@
 		BBB5A37C24AB9777004D0B1A /* VendingMachineDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BBB5A37D24AB9777004D0B1A /* main.cpp */,
+				BBB5A37D24AB9777004D0B1A /* VendingMachineTestMain.cpp */,
+				BB17AD9F24AB98C80099FB65 /* makefile */,
+				BBB5A38424AB978D004D0B1A /* Item.cpp */,
+				BBB5A38524AB978D004D0B1A /* Item.hpp */,
+				BB17AD9C24AB981B0099FB65 /* VendingMachine.cpp */,
+				BB17AD9D24AB981B0099FB65 /* VendingMachine.hpp */,
 			);
 			path = VendingMachineDemo;
 			sourceTree = "<group>";
@@ -119,7 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBB5A37E24AB9777004D0B1A /* main.cpp in Sources */,
+				BBB5A38624AB978D004D0B1A /* Item.cpp in Sources */,
+				BBB5A37E24AB9777004D0B1A /* VendingMachineTestMain.cpp in Sources */,
+				BB17ADA024AB98C80099FB65 /* makefile in Sources */,
+				BB17AD9E24AB981B0099FB65 /* VendingMachine.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
